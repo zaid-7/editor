@@ -18,7 +18,7 @@ const LatexEditor = () => {
 
   return (
     <div>
-      <h2>LaTeX Equation Editor</h2>
+      <h2>Editor</h2>
       <SymbolSelector onSelect={handleSymbolSelect} />
       <textarea
         value={latex}
