@@ -17,3 +17,32 @@
     font-size: 14px;
   }
   
+
+  /* src/components/Options.css */
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.option-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 300px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button.selected {
+  background-color: #EBF0FF;
+  border: 2px solid #3369FF;
+  color: #3369FF;
+}
+.options-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(5,0.5fr);
+  gap: 5px;
+}

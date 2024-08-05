@@ -6,10 +6,14 @@ const symbols = [
   { label: '∃', code: '<$>\\exists</$>' },
   { label: 'Delta', code: '<$>\\sqrt[n]{x}</$>' },
   { label: '∑ ', code: '<$>\\sum</$>' },
-  { label: 'Pi', code: '\\pi' },
-  { label: 'Sigma', code: '\\sigma' },
-  { label: 'Theta', code: '\\theta' },
-  { label: 'Omega', code: '\\omega' },
+  { label: 'π', code: '<$>\\pi</$>' },
+  { label: 'σ', code: '<$>\\sigma</$>' },
+  { label: '𝜃', code: '<$>\\theta</$>' },
+  { label: '𝜔', code: '<$>\\omega</$>' },
+  { label: '⟹', code: '<$>\\Longrightarrow</$>' },
+  { label: '∫', code: '<$>\\int</$>' },
+  { label: 'x_n', code: '<$>x_n</$>' },
+  { label: 'lim', code: '<$>\\varinjlim</$>' },
   // Add more symbols as needed
 ];
 
